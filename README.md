@@ -1,4 +1,4 @@
-# ULLCON 2026 - Mailbox CTF Challenge
+# NULLCON 2026 - Mailbox CTF Challenge
 
 ## Challenge Overview
 
