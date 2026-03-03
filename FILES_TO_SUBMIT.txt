@@ -1,0 +1,80 @@
+================================================================================
+NULLCON 2026 - MAILBOX CHALLENGE - FILES TO SUBMIT
+================================================================================
+
+CHALLENGE FILES (Keep as is):
+  ✓ bzImage
+  ✓ rootfs.ext3
+  ✓ vmlinux
+  ✓ run.sh
+  ✓ .config
+
+EXPLOIT CODE (4 files):
+  ✓ exploit_toctou.c
+  ✓ exploit_mailbox_toctou.c
+  ✓ exploit_final.c
+  ✓ exploit_aggressive.c
+
+REPORT & DOCUMENTATION (5 files):
+  ✓ CTF_REPORT.md
+  ✓ TECHNICAL_ANALYSIS.md
+  ✓ SOLUTION.md
+  ✓ README.md
+  ✓ BUILDROOT_GUIDE.md
+  ✓ SUBMISSION_SUMMARY.txt
+
+TOTAL: 16 files
+
+================================================================================
+WHAT TO SUBMIT
+================================================================================
+
+Email to: ctf@binarygecko.com
+
+Subject: NULLCON 2026 - Mailbox Challenge - Research Report
+
+Attachments:
+  1. CTF_REPORT.md (Main research report)
+  2. TECHNICAL_ANALYSIS.md (Technical deep dive)
+  3. SUBMISSION_SUMMARY.txt (Quick summary)
+  4. exploit_toctou.c
+  5. exploit_mailbox_toctou.c
+  6. exploit_final.c
+  7. exploit_aggressive.c
+  8. README.md
+  9. BUILDROOT_GUIDE.md
+  10. SOLUTION.md
+
+================================================================================
+REPORT HIGHLIGHTS
+================================================================================
+
+✓ Vulnerability Identified: TOCTOU Race Condition
+✓ Location: /dev/mailbox kernel module
+✓ Attack Vector: Symlink replacement
+✓ Exploitation Attempts: 5 documented
+✓ Code Variants: 4 different approaches
+✓ Documentation: Comprehensive analysis
+✓ Technical Depth: Deep kernel exploitation knowledge
+
+================================================================================
+KEY FINDINGS
+================================================================================
+
+1. TOCTOU Race Condition in /dev/mailbox driver
+2. Multi-threaded exploitation strategy developed
+3. Heap spray technique for memory pressure
+4. Protection bypass methods analyzed (SMEP, SMAP, KASLR, KPTI)
+5. System resource constraints documented
+6. Lessons learned and recommendations provided
+
+================================================================================
+READY FOR SUBMISSION
+================================================================================
+
+All files cleaned and organized.
+Personal references removed from reports.
+Challenge files preserved.
+Exploit code and documentation ready.
+
+Status: READY TO SUBMIT ✓
