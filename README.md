@@ -243,16 +243,6 @@ The exploit success depends on:
 4. **Check VM Resources**: Ensure sufficient CPU cores
 5. **Monitor dmesg**: Check for kernel messages
 
-## Flag Format
-
-```
-ULLCON{...}
-```
-
-## Submission
-
-- **Email**: ctf@binarygecko.com
-- **Subject**: ULLCON 2026 - Mailbox Challenge
 
 ## References
 
